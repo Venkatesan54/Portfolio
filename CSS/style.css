@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar */
+
+.nav-bar{
+    width: 100%;
+    /* border: 2px solid; */
+    position: sticky;
+    top: 0;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0);
+
+}
+
+ul{
+    display: flex;
+    list-style: none;    
+    padding: 0 20px;
+}
+
+ul li{
+    padding: 8px 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color:#45FFCA;
+}
+
+ul li a:hover{
+    background-color:#45FFCA;
+    color: black;
+    box-shadow: 0 0 40px white;
+}
+
+/* HOME PAGE */
+
+#home{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    color: white;
+    background-color: rgba(0,0,0);
+    text-transform: uppercase;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-bottom:20px ;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    color: #FA7070;
+    font-size: 75px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-spacing: 5px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10%;
+}
+
+/* ABOUT PAGE */
+
+#about{
+    color: white;
+}
+
+.heads{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    background-color: rgba(0,0,0 );
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heads h2{
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+.heads p{
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* SKILL PAGE */
+
+#skill{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0);
+    color: white;
+    align-items: center;
+    padding: 30px;
+  
+}
+.head{
+    margin-top: 10px;
+    font-size: 45px;
+    color: green;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 40px;
+}
+
+.main img{
+    width: 340px;
+    height: 260px;
+    margin: 10px;
+}
+
+/* CONTACT PAGE */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0);
+    color: white;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg{
+    width: 30%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send{
+    padding: 10px;
+    width: 20%;
+    margin: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color:green;
+}
+
+#send:hover{
+    box-shadow: 0 0 10px white;
+}
+
+.h{
+    margin: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
